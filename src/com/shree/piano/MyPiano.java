@@ -170,6 +170,7 @@ public class MyPiano extends JFrame
 			{
 				try
 				{
+					// set your path for sound 
 					File mySound = new File("C:\\Users\\User\\eclipse-workspace\\Piano\\src\\com\\shree\\sound\\a1.wav");
 					new PlayPianoSound(mySound); //creating object of PlayPiano Sound
 				}
